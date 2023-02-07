@@ -17,7 +17,7 @@ export function Home() {
       <section className="presentation">
         <div className="container">
           <div className="descriptionPresentation">
-            <h1>O DENTISTA E A FARMACOLOGIA</h1>
+            <h1>O Dentista e a Farmacologia </h1>
             <p>
             O dia a dia do dentista é repleto de desafios e a prescrição medicamentosa é uma das maiores dúvidas dos profissionais. Entre protocolos e receitas prontas, nos deparamos com casos desafiadores, interações medicamentosas e manifestações orais e sistêmicas do uso de medicamentos. Na hora da prescrição, pode bater aquela dúvida: posso indicar esse medicamento? Como orientar seu uso?
 

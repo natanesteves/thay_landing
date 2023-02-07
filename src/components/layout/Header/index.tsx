@@ -1,55 +1,32 @@
-// Icons
-import {
-  SiInstagram,
-  SiTiktok,
-  SiDiscord,
-  SiTwitter,
-  SiYoutube,
-} from "react-icons/si";
-
-// React
-import { useState, useRef } from "react";
-
-// React Router Dom
-import { Link } from "react-router-dom";
-
 // Styles
+import { useEffect, useState } from "react";
 import "./styles.scss";
 
-// Icon
-import { FiMenu, FiX } from "react-icons/fi";
 
-var OpenSea = require("../../../assets/icons/opensea.png");
-var EngSite = require("../../../assets/icons/bandeira.jpg");
 
 export function Header() {
-  const header = useRef(null);
-  const propose = useRef(null);
-  const videos = useRef(null);
-  const whatWeDo = useRef(null);
-  const categories = useRef(null);
-  const history = useRef(null);
-
-  const scrollToSection = (elementRef: any) => {
-    window.scrollTo({
-      top: elementRef.current.offsetTop,
-      behavior: "smooth",
-    });
-  };
-
-  const [menuIsOpen, setMenuIsOpen] = useState<boolean>(false);
-
-  function handleMenuIsOpen() {
-    if (menuIsOpen) {
-      setMenuIsOpen(false);
-    } else {
-      setMenuIsOpen(true);
-    }
-  }
+                                                              // days : hours : minutes :seconds
+  const [totalTimeInseconds, setTotalTimeInSeconds] = useState( (20 * 24 * 60 * 60))
+  const days = Math.floor ( totalTimeInseconds / 60 / 60 / 24)
+  const hours = Math.floor ( (totalTimeInseconds / 60 / 60) %24)
+  const minutes = Math.floor ( (totalTimeInseconds / 60 )% 60) 
+  const seconds = totalTimeInseconds % 60
+  
+  useEffect(() => {
+  
+    setTimeout ( () => {
+  setTotalTimeInSeconds (totalTimeInseconds - 1) }, 1000)
+}, [totalTimeInseconds ])
 
   return (
     <header id="header">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab necessitatibus optio explicabo enim placeat. Sed illum praesentium recusandae nulla rerum voluptatum, odit libero sapiente officia adipisci consequuntur eos est beatae!
-    </header>
+      <span>{days.toString().padStart(2, "0")}</span>
+   <span>:</span>
+  <span>{hours.toString().padStart(2, "0")}</span>
+   <span>:</span>
+   <span>{minutes.toString().padStart(2, "0")}</span>
+   <span>:</span>
+   <span>{seconds.toString().padStart(2, "0")}</span>
+   </header>
   );
 }
