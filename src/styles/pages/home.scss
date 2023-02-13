@@ -27,6 +27,7 @@
       }
 
       p {
+       
         font-size: 1rem;
         font-weight: 300;
         color: var(--black);
@@ -252,6 +253,9 @@
         &.one {
           top: 0;
           left: 10%;
+          border-radius: 15px;
+        border: 2px solid  #e68e9a;
+        padding: 10px;
 
           @media (max-width: 1000px) {
             top: 0;

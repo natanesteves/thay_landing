@@ -40,7 +40,7 @@ export function Footer() {
       <div className="container">
         <div className="socials">
           <a
-            href=""
+            href="https://www.instagram.com/farmacodontologia/"
             className="boxSocials"
           >
             <SiInstagram />

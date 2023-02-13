@@ -27,6 +27,11 @@ export function Header() {
    <span>{minutes.toString().padStart(2, "0")}</span>
    <span>:</span>
    <span>{seconds.toString().padStart(2, "0")}</span>
+   <br></br>
+   <span>Dias:</span>
+   <span>Horas:</span>
+   <span>Minutos:</span>
+   <span>Segundos:</span>
    </header>
   );
 }

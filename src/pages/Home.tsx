@@ -3,7 +3,7 @@ import { OurTeam } from "../components/layout/OurTeam";
 import { Button } from "../components/Button";
 
 import { Doubts } from "../components/Doubts";
-
+import Testimonial from "../components/Testimonial/Testimonial";
 // Styles
 import "../styles/pages/home.scss";
 import { FiHeart } from "react-icons/fi";
@@ -73,12 +73,13 @@ Pensando nisso, resolvi declarar oficialmente aberta a semana do dentista prescr
           </div>
         </div>
       </section>
+ <Testimonial />
 
       <section className="propose" id="propose">
         <div className="container">
           <div className="imgPropose"></div>
           <div className="descriptionPropose">
-            <h1>QUEM SOU EU:</h1>
+            <h1>Quem sou eu:</h1>
             <p>
             Olá! Eu me chamo Thayanne Calcia, sou professora de Terapêutica Medicamentosa aplicada à Odontologia. Sou dentista, mestre e doutora com mais de 10 anos de experiência no ensino e no estudo da Farmacologia. Sou especializada em Estomatologia e DTM/Dor Orofacial, áreas nas quais atuo clinicamente. Diariamente, me dedico a simplificar o entendimento da Farmacologia Clínica na Odontologia, disciplina que é considerada bastante desafiadora.
             </p>
@@ -86,12 +87,12 @@ Pensando nisso, resolvi declarar oficialmente aberta a semana do dentista prescr
         </div>
       </section>
 
-
+     
       <section className="propose" id="propose">
         <div className="container">
           <div className="imgPropose2"></div>
           <div className="descriptionPropose">
-            <h1>INVESTIMENTO</h1>
+            <h1>Investimento</h1>
             <p>
             O evento será totalmente gratuito! As aulas ficarão disponíveis por 72 horas, para que você possa assistir no seu tempo.
 
