@@ -41,7 +41,7 @@
     
     
     width: 30rem;
-    height: 12rem;
+    height: 22rem;
     /* styles same as work.css */
   
    
@@ -53,13 +53,13 @@
     height: 6rem;
     border-radius: 100%;
 }
-.testimonial>h3{
+.testimonial>h2{
     color: #ddcdc0;
 }
 .testimonial>span{
     color: var(--black);
+    font-size: 14px;
 }
-
 
 /* slider */
 .t-wrapper .swiper {
