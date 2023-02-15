@@ -82,14 +82,14 @@ Pensando nisso, resolvi declarar oficialmente aberta a semana do dentista prescr
           <div className="descriptionPropose">
             <h1>Investimento</h1>
             <p>
-            O evento será totalmente gratuito! As aulas ficarão disponíveis por 72 horas, para que você possa assistir no seu tempo.
+            O evento será totalmente  <strong > gratuito!</strong> As aulas ficarão disponíveis por<strong> 72 horas</strong>, para que você possa assistir no seu tempo.
 
 Inscreva-se para a Semana do Dentista Prescritor
 
 
 
-Ah, um aviso importante: não serão emitidos certificados de participação do evento.
-           </p>
+Ah, um <strong> aviso importante: não serão emitidos certificados de participação do evento.
+         </strong>  </p>
           </div>
         </div>
       </section>
