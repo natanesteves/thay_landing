@@ -30,7 +30,7 @@ Pensando nisso, resolvi declarar oficialmente aberta a semana do dentista prescr
 
       <section className="whatWeDo" id="whatWeDo">
         <div className="title">
-          <h1>O EVENTO!!!</h1>
+          <h1>O EVENTO</h1>
         </div>
 
         <div className="container">
@@ -53,22 +53,10 @@ Pensando nisso, resolvi declarar oficialmente aberta a semana do dentista prescr
               </div>
               <h1>Disponivel tambem no youtube</h1>
               <p>
-              As aulas serão disponibilizadas no Youtube no canal @farmacodontologia (pode ser legal por um hiperlink), sempre às 20:23.
+              As aulas serão disponibilizadas no Youtube no canal <a href="https://www.youtube.com/channel/UCYdKtFDfeBYQqEbr3GDfJAw">@farmacodontologia</a> , sempre às 20:23.
               </p>
             </div>
-            <div className="boxInformation three">
-              <div className="boxIcon">
-                <FiHeart />
-              </div>
-              <h1>Confira nossos temas e datas:</h1>
-              <p>
-              27/02 – Segunda-feira – Os três pilares da prescrição na Odontologia
-
-28/02 – Terça-feira – A farmácia do dentista
-
-01/03 – Quarta-feira – Pacientes e seus medicamentos: o desafio do dentista do século XXI
-              </p>
-            </div>
+           
             
           </div>
         </div>

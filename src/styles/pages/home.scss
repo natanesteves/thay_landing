@@ -20,24 +20,27 @@
       }
 
       h1 {
-        font-size: 3rem;
-        font-weight: 800;
-        line-height: 70px;
+        padding: 1px;
+        font-size: 1.9rem;
+        font-style: oblique;
+        line-height: 30p;
         color:#e68e9a;
       }
 
       p {
-       
+        font-style: oblique;
         font-size: 18px;
         font-weight: 300;
         color: var(--black);
+        text-align: center;
         margin: 0.8rem 0;
       }
     }
 
     .imgPresentation {
       width: 49%;
-
+      margin-top: -155px;
+      margin-bottom: -130px;
       height: 510px;
       background: url("../../assets/colagem.jpg");
       background-position: center;
@@ -51,7 +54,7 @@
 }
 
 .propose {
-  margin: 4rem 0;
+  margin: 3rem 0;
 
   .container {
     display: flex;
@@ -79,7 +82,9 @@
       }
 
       p {
-        font-size: 1rem;
+        font-style: oblique;
+        font-size: 18px;
+        text-align: center;
         font-weight: 300;
         color: var(--black);
         margin: 0.8rem 0;
@@ -93,7 +98,7 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
-
+      margin-top: 100px;
       @media (max-width: 830px) {
         width: 100%;
       }
@@ -105,7 +110,8 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
-
+      margin-top: -125px;
+      margin-bottom: -130px;
       @media (max-width: 830px) {
         width: 100%;
       }
@@ -138,7 +144,7 @@
 
   .nogsContent {
     margin: 1rem 0;
-    display: flex;
+    
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -170,6 +176,7 @@
 
 .whatWeDo {
   margin: 3rem 0;
+  
   .boxtitle {
     color:  #e68e9a;
   }
@@ -245,9 +252,11 @@
         }
 
         p {
-          font-size: 1rem;
+          font-style: oblique;
+          font-size: 16px;
           font-weight: 300;
           color: var(--black);
+          text-align: center;
         }
 
         &.one {
@@ -265,8 +274,8 @@
         }
 
         &.two {
-          top: 0;
-          right: 10%;
+          top: 40%;
+          right: 5%;
 
           @media (max-width: 1000px) {
             top: 0;
@@ -276,7 +285,7 @@
         }
 
         &.three {
-          top: 40%;
+          top: 80%;
           left: 0;
           margin-top: 2rem;
           @media (max-width: 1000px) {

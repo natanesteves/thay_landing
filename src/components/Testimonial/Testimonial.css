@@ -1,17 +1,18 @@
 .t-wrapper{
     
     padding:  0 3rem 0 3rem;;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     flex-direction: column;
     gap: 2rem;
     position: relative;
 }
 .t-heading{
-    align-self: start;
+    align-self: center;
 }
 .t-heading>*{
     font-size: 2rem;
@@ -48,17 +49,16 @@
     box-shadow: var(--boxShadow);
     border-radius: 20px;
 }
-.testimonial>img{
-    width: 6rem;
-    height: 6rem;
-    border-radius: 100%;
-}
+
 .testimonial>h2{
     color: #ddcdc0;
+    padding: 5px;
 }
 .testimonial>span{
     color: var(--black);
-    font-size: 14px;
+    font-style: oblique;
+    font-size: 18px;
+    text-align: center;
 }
 
 /* slider */

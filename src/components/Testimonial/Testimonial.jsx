@@ -20,7 +20,9 @@ const Testimonial = () => {
         " Muitas vezes desconhecemos todos os recursos farmacológicos que podemos usar na nossa clínica. Nessa aula, você vai conhecer todas as possibilidades de terapêutica medicamentosa que podemos lançar mão para melhorar nossos resultados clínicos.",
     },
     {
-      Title:"01/03 - Quarta-feira - Pacientes e seus medicamentos: o desafio do dentista do século XXI",
+      date:"01/03 ",
+      day:"Quarta-feira",
+      Title:" Pacientes e seus medicamentos: o desafio do dentista do século XXI",
       review:
         " No nosso último dia de imersão, vamos conversar sobre um problema super atual: os nossos pacientes polimedicados. Você vai entender o que são interações medicamentosas e conhecer as principais consequências no atendimento de pacientes que usam medicamentos cronicamente.",
     }
@@ -29,29 +31,26 @@ const Testimonial = () => {
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>Mais sobre os dias de aula: </span>
+        <span>Confira nossos temas e datas: </span>
        
       <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
       </div>
-      <Swiper
-        // install Swiper modules
-        modules={[Pagination]}
-        slidesPerView={1}
-        pagination={{ clickable: true }}
-      >
+      
         {clients.map((client, index) => {
           return (
-            <SwiperSlide key={index}>
+          
               <div className="testimonial">
+                <h3>{client.date}</h3>
+                <h3>{client.day}</h3>
                 <h2>{client.Title}</h2>
                 <span>{client.review}</span>
               </div>
-            </SwiperSlide>
+            
           );
         })}
-      </Swiper>
+      
     </div>
   );
 };

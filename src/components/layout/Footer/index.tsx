@@ -47,7 +47,7 @@ export function Footer() {
           </a>
 
           <a
-            href=""
+            href="https://www.youtube.com/channel/UCYdKtFDfeBYQqEbr3GDfJAw"
             className="boxSocials"
           >
             <SiYoutube />
