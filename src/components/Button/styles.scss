@@ -3,6 +3,12 @@ button.mainButton {
     padding: 1.4rem 2rem;
     border-radius: 0.5rem;
     background: var(--main-color);
+    margin-top: 5%;
+    margin-left: 40%;
+    @media (max-width: 830px) {
+    margin-top: 5%;
+    margin-left: 10%;
+      }
     
     span {
         font-size: 1rem;

@@ -1,12 +1,8 @@
 header {
-  position: relative;
-  background-color: aqua;
-  top: 0;
-  left: 0;
-  z-index: 98;
-  align-items: center;
-  font-size: x-large;
-
-  
+  margin-left: 35%;
+  margin-top: 2%;
+  @media (max-width: 830px) {
+    margin: 2rem 0;
+  }
 }
   

@@ -89,7 +89,10 @@
         color: var(--black);
         margin: 0.8rem 0;
       }
+    
     }
+
+    
 
     .imgPropose {
       width: 49%;
@@ -101,6 +104,7 @@
       margin-top: 100px;
       @media (max-width: 830px) {
         width: 100%;
+        margin-top: 10px;
       }
     }
     .imgPropose2 {
@@ -110,10 +114,11 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
-      margin-top: -125px;
+      margin-top: -55px;
       margin-bottom: -130px;
       @media (max-width: 830px) {
         width: 100%;
+        margin-top: -155px;
       }
     }
   }
@@ -177,9 +182,7 @@
 .whatWeDo {
   margin: 3rem 0;
   
-  .boxtitle {
-    color:  #e68e9a;
-  }
+ 
 
   .container {
     margin: 2rem auto;
@@ -263,7 +266,7 @@
           top: 0;
           left: 10%;
           border-radius: 15px;
-        border: 2px solid  #e68e9a;
+        border: 2px solid  var(--main-color);
         padding: 10px;
 
           @media (max-width: 1000px) {
@@ -276,6 +279,9 @@
         &.two {
           top: 40%;
           right: 5%;
+          border-radius: 15px;
+        border: 2px solid  var(--main-color);
+        padding: 10px;
 
           @media (max-width: 1000px) {
             top: 0;

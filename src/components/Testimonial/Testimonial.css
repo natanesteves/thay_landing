@@ -10,6 +10,7 @@
     flex-direction: column;
     gap: 2rem;
     position: relative;
+    
 }
 .t-heading{
     align-self: center;
@@ -31,6 +32,10 @@
     top: 9rem;
     left: 0;
 }
+.t-date{
+    color: #e68e9a;
+    align-self: center;
+}
 .testimonial{
     display: flex;
     flex-direction: column;
@@ -51,7 +56,7 @@
 }
 
 .testimonial>h2{
-    color: #ddcdc0;
+    color:#e68e9a;
     padding: 5px;
 }
 .testimonial>span{

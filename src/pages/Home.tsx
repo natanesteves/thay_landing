@@ -62,6 +62,11 @@ Pensando nisso, resolvi declarar oficialmente aberta a semana do dentista prescr
         </div>
       </section>
  <Testimonial />
+ <br></br>
+ <br></br>
+ <br></br>
+ <a href="https://chat.whatsapp.com/DWc4jDcebXF6BXWwhc9xfI">
+        <Button text={"Entre no Grupo do WhatsApp"}></Button></a>
 
       <section className="propose" id="propose">
         <div className="container">
@@ -92,7 +97,10 @@ Ah, um <strong> aviso importante: não serão emitidos certificados de participa
          </strong>  </p>
           </div>
         </div>
+        <a href="https://docs.google.com/forms/d/1qgzL61tz_-7OElyBjYIfeNPq1bY10IGT0bv8A1SpxZ0/viewform?edit_requested=true">
+        <Button text={"Inscreva-se Gratuitamente"}></Button></a>
       </section>
+
 
       
     </main>
