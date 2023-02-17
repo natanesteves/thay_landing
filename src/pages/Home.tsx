@@ -62,14 +62,13 @@ Pensando nisso, resolvi declarar oficialmente aberta a semana do dentista prescr
         </div>
       </section>
  <Testimonial />
- <br></br>
- <br></br>
- <br></br>
- <a href="https://chat.whatsapp.com/DWc4jDcebXF6BXWwhc9xfI">
-        <Button text={"Entre no Grupo do WhatsApp"}></Button></a>
+
 
       <section className="propose" id="propose">
+         <a href="https://chat.whatsapp.com/DWc4jDcebXF6BXWwhc9xfI">
+        <Button text={"Entre no Grupo do WhatsApp"}></Button></a>
         <div className="container">
+
           <div className="imgPropose"></div>
           <div className="descriptionPropose">
             <h1>Quem sou eu:</h1>
