@@ -227,7 +227,7 @@
       }
 
       .boxInformation {
-        width: 250px;
+        width: 300px;
         position: absolute;
 
         @media (max-width: 1000px) {
@@ -274,52 +274,67 @@
           top: 0;
           left: 10%;
           border-radius: 15px;
-        border: 2px solid  var(--main-color);
-        padding: 10px;
-
+          border: 2px solid  #e68e9a;
+          padding: 10px;
           @media (max-width: 1000px) {
-            top: 0;
-            left: 0;
-            right: 0;
+              top: 0;
+              left: 0;
+              right: 0;
           }
-        }
+      }
 
-        &.two {
-          top: 40%;
-          right: 5%;
+      &.two {
+          top: 0;
+          right: 9%;
           border-radius: 15px;
-        border: 2px solid  var(--main-color);
-        padding: 10px;
-
+          border: 2px solid  #e68e9a;
+          padding: 15px;
           @media (max-width: 1000px) {
-            top: 0;
-            left: 0;
-            right: 0;
+              top: 0;
+              left: 0;
+              right: 0; 
+              padding: 40px;
+              h1 {
+                font-size: 1.5rem;
+                font-weight: 800;
+                margin-left: -25%;
+              }
+              p {
+                font-style: oblique;
+                font-size: 14px;
+                font-weight: 300;
+                color: var(--black);
+                text-align: left;
+                margin-left: -25%;
+              }
           }
-        }
+      }
 
-        &.three {
-          top: 80%;
+      &.three {
+          top: 55%;
           left: 0;
-          margin-top: 2rem;
+          border-radius: 15px;
+          border: 2px solid  #e68e9a;
+          padding: 10px;
           @media (max-width: 1000px) {
-            top: 0;
-            left: 0;
-            right: 0;
+              top: 0;
+              left: 0;
+              right: 0;
           }
-        }
+      }
 
-        &.four {
+      &.four {
           top: 40%;
           right: 0;
-          width: 350px;
-          margin-top: 2rem;
+          border-radius: 15px;
+          border: 2px solid  #e68e9a;
+          padding: 10px;
           @media (max-width: 1000px) {
-            top: 0;
-            left: 0;
-            right: 0;
+              top: 0;
+              left: 0;
+              right: 0;
           }
-        }
+      }
       }
     }
   }

@@ -56,7 +56,20 @@ Pensando nisso, resolvi declarar oficialmente aberta a semana do dentista prescr
               As aulas serão disponibilizadas no Youtube no canal <a href="https://www.youtube.com/channel/UCYdKtFDfeBYQqEbr3GDfJAw">@farmacodontologia</a> , sempre às 20:23.
               </p>
             </div>
-           
+            <div className="boxInformation three">
+              <div className="boxIcon">
+                <FiHeart />
+              </div>
+              <h1>Como fazemos?</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div className="boxInformation four">
+              <div className="boxIcon">
+                <FiHeart />
+              </div>
+              <h1>Como fazemos?</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
             
           </div>
         </div>
