@@ -44,31 +44,31 @@ Pensando nisso, resolvi declarar oficialmente aberta a semana do dentista prescr
               </div>
               <h1 className="boxtitle">Os Dias</h1>
               <p>
-              Serão 3 dias de uma imersão no mundo da farmacologia aplicada a clínica odontológica. Vamos falar sobre a importância do conhecimento em farmacologia para uma prática clínica segura. As aulas são voltadas para toda a comunidade Odontológica: alunos de graduação, pós-graduação e clínicos!
+              Serão 3 dias de uma imersão no mundo da Farmacologia aplicada à Clínica Odontológica, com aulas de duração aproximada de 1 hora.
               </p>
             </div>
             <div className="boxInformation two">
               <div className="boxIcon">
                 <FiHeart />
               </div>
-              <h1>Disponivel tambem no youtube</h1>
+              <h1>O assunto</h1>
               <p>
-              As aulas serão disponibilizadas no Youtube no canal <a href="https://www.youtube.com/channel/UCYdKtFDfeBYQqEbr3GDfJAw">@farmacodontologia</a> , sempre às 20:23.
+              Vamos falar sobre a importância do conhecimento em farmacologia para uma prática clínica segura e responsável.
               </p>
             </div>
             <div className="boxInformation three">
               <div className="boxIcon">
                 <FiHeart />
               </div>
-              <h1>Como fazemos?</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h1>O público-alvo</h1>
+              <p>As aulas são voltadas para todos os interessados em farmacologia, em especial, alunos de graduação e  pós-graduação em Odontologia e dentistas.</p>
             </div>
             <div className="boxInformation four">
               <div className="boxIcon">
                 <FiHeart />
               </div>
-              <h1>Como fazemos?</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h1>O local</h1>
+              <p>Nosso encontro acontecerá no Youtube, no canal <a href="https://www.youtube.com/channel/UCYdKtFDfeBYQqEbr3GDfJAw">@farmacodontologia</a>, sempre às 20:23. O link será enviado para o email cadastrado na inscrição, 1 hora antes.</p>
             </div>
             
           </div>

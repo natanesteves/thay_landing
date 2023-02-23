@@ -100,7 +100,7 @@
     .imgPropose {
       width: 49%;
       height: 510px;
-      background: url("../../assets/DSC_0930.jpg");
+      background: url("../../assets/DSC_0930-removebg-preview.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -280,6 +280,8 @@
               top: 0;
               left: 0;
               right: 0;
+              height: 270px;
+              padding: 4px;
           }
       }
 
@@ -293,20 +295,9 @@
               top: 0;
               left: 0;
               right: 0; 
-              padding: 40px;
-              h1 {
-                font-size: 1.5rem;
-                font-weight: 800;
-                margin-left: -25%;
-              }
-              p {
-                font-style: oblique;
-                font-size: 14px;
-                font-weight: 300;
-                color: var(--black);
-                text-align: left;
-                margin-left: -25%;
-              }
+              height: 270px;
+              padding: 6px;
+             
           }
       }
 
@@ -320,6 +311,8 @@
               top: 0;
               left: 0;
               right: 0;
+              height: 290px;
+              padding: 3px;
           }
       }
 
@@ -333,6 +326,8 @@
               top: 0;
               left: 0;
               right: 0;
+              height: 290px;
+              padding: 1px;
           }
       }
       }
