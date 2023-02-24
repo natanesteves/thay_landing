@@ -30,7 +30,7 @@ Pensando nisso, resolvi declarar oficialmente aberta a semana do dentista prescr
 
       <section className="whatWeDo" id="whatWeDo">
         <div className="title">
-          <h1>O EVENTO</h1>
+          <h1>O Evento</h1>
         </div>
 
         <div className="container">
