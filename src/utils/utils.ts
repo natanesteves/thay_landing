@@ -8,7 +8,7 @@ export type TimeLeft = {
 export const calculateTimeLeft = () => {
   let year = new Date().getFullYear();
   let month = 3;
-  let day = 8;
+  let day = 6;
 
   const difference = +new Date(`${year}-${month}-${day}`) - +new Date();
 
