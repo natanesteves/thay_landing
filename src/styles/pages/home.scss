@@ -58,6 +58,12 @@
  @media (max-width: 830px) {
      margin-top: 50%;
     }
+    a{
+      display: flex;
+      justify-content: center;
+  align-items: center;
+      
+    }
   .container {
     display: flex;
     align-items: center;
@@ -229,7 +235,7 @@
       .boxInformation {
         width: 300px;
         position: absolute;
-
+       
         @media (max-width: 1000px) {
           position: relative;
           width: 49%;
@@ -246,15 +252,15 @@
           border-radius: 8px;
           border: 1px solid var(--main-color);
           display: flex;
-          align-items: center;
+          margin-left: auto;
+          margin-right: auto;
           justify-content: center;
-          margin-left: 2rem;
           margin-bottom: 1rem;
 
           svg {
             font-size: 1.5rem;
             color: var(--main-color);
-            align-content: center;
+           
           }
         }
 

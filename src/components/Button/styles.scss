@@ -4,10 +4,12 @@ button.mainButton {
     border-radius: 0.5rem;
     background: #c09776;
     margin-top: 5%;
-    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     @media (max-width: 830px) {
     margin-top: 5%;
-    margin-left: 10%;
+ 
       }
     
     span {
