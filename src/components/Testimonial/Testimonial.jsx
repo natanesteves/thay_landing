@@ -10,22 +10,22 @@ import "swiper/css/pagination";
 const Testimonial = () => {
   const clients = [
     {
-      date:" 27/2",
+      date:"06/03",
       day:"Segunda feira",
       Title:"    Aula 1 Os três pilares da prescrição na Odontologia",
       review:
         "Dentista, não importa qual a sua especialidade: saber prescrever é essencial! No nosso primeiro encontro, vamos falar sobre como você pode fazer uma prescrição mais eficiente e segura em sua rotina clínica.",
     },
     {
-      date:" 28/2",
+      date:"07/03",
       day:"Terça-feira ",
       Title:"   A farmácia do dentista - Aula 2",
       review:
         " Muitas vezes desconhecemos todos os recursos farmacológicos que podemos usar na nossa clínica. Nessa aula, você vai conhecer todas as possibilidades de terapêutica medicamentosa que podemos lançar mão para melhorar nossos resultados clínicos.",
     },
     {
-      date:"01/03 ",
-      day:"Sexta-feira",
+      date:"08/03",
+      day:"Quarta-feira",
       Title:" Pacientes e seus medicamentos: o desafio do dentista do século XXI",
       review:
         " No nosso último dia de imersão, vamos conversar sobre um problema super atual: os nossos pacientes polimedicados. Você vai entender o que são interações medicamentosas e conhecer as principais consequências no atendimento de pacientes que usam medicamentos cronicamente.",
