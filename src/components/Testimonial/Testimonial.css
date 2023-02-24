@@ -46,7 +46,7 @@
     align-items: center;
     border-radius: 15px;
     border: 2px solid  #e68e9a;
-    padding: 20px;
+    padding: 2%;
     justify-content: space-evenly;
     
     
@@ -67,7 +67,8 @@
     color: var(--black);
     font-style: oblique;
     font-size: 18px;
-    text-align: center;
+    padding: 1%;
+    text-align: justify;
 }
 
 /* slider */
